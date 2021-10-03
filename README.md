@@ -10,8 +10,10 @@ First I decided to see how to optimize dot products. I took python, concurrent.f
 ## What I did that I didn't like:
 1. I wrote the whole project up in a jupyter notebook, but it got crowded really quickly
 2. I am not sure I used the threading library to its full potential
+3. I tested the code on only one machine - I only tested on one with low capabilities, which would explain the results I was getting
 
 
 ## How I would fix the above given another go:
 1. (a) Make each function its own .py file, which would clean up the code significantly, and bring them in to the notebook just to run the tests. 
 2. Read up more on the threading library and ask for help
+3. Use other, potentially more capable, machines to test my code

@@ -1,4 +1,4 @@
-# Multiprocessing MatMul, or "Why You Should Always Use NumPy"
+# Multithreading MatMul, or "Why You Should Always Use NumPy"
 I took concurrent.futures, threading, and multiprocessing and built matrix multiplication from integer operations and lists!
 
 ## Results
